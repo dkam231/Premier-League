@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.novel-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222; /* Darker container background color */
+    border-radius: 10px;
+}
+
+#choices button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: #2980b9;
+}
